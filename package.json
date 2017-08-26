@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "node-telegram-bot-api": "^0.28.0",
+    "parse-domain": "^1.1.0",
+    "valid-url": "^1.0.9"
+  },
+  "name": "artistrycobot",
+  "description": "Bot for Telegram",
+  "version": "0.1.0",
+  "main": "Bot.js",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "start": "node ./Bot.js",
+    "start:watch": "nodemon ./Bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denis-kalinichenko/artistrycoBot.git"
+  },
+  "keywords": [
+    "Telegram",
+    "bot"
+  ],
+  "author": "Denis Kalinichenko <d.kalinichenkooo@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/denis-kalinichenko/artistrycoBot/issues"
+  },
+  "homepage": "https://github.com/denis-kalinichenko/artistrycoBot#readme"
+}
