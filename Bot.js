@@ -152,7 +152,7 @@ bot.onText(/\/stop/, msg => {
 bot.onText(/\/help/, msg => {
     bot.sendDocument(msg.chat.id, "http://i.imgur.com/zBNmPRX.gif", {
         caption: `To edit cookies go to www.editthiscookie.com and install extension for Google Chrome, ` +
-        `use it to change the value of '_big_cartel_session' cookie. Refresh the page.`,
+        `use it to change the value of '_storefront_session' cookie. Refresh the page.`,
         reply_markup: { hide_keyboard: true },
     });
 });
