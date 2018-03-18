@@ -72,7 +72,7 @@ class Product {
 
             res.on('end', () => {
                 const cookies = cookieparser.parse(res.headers["set-cookie"][0]);
-                this.session = cookies._big_cartel_session;
+                this.session = cookies._storefront_session;
                 callback();
             });
         });
