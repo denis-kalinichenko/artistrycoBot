@@ -71,7 +71,7 @@ bot.onText(/\/add/, msg => {
 
     product.addToCart(() => {
         let message_body = `Product has been successfully added to Cart! Copy the session code:\n\n<pre>${product.session}</pre>` +
-        `\n\nAnd then open www.theartistryco.com/cart in your browser, change the cookie value of <b>_big_cartel_session</b> `+
+        `\n\nAnd then open www.theartistryco.com/cart in your browser, change the cookie value of <b>_storefront_session</b> `+
         `and refresh the page. Send /help command for more information about browser cookies.`;
         bot.sendMessage(msg.chat.id, message_body, {
             parse_mode: "HTML",
